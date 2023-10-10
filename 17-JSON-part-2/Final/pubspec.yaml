@@ -1,0 +1,24 @@
+name: saving_data_flutter
+description: Saving data in Flutter
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.0.20
+  path: ^1.8.2
+  path_provider: ^2.0.14
+  flutter_secure_storage: ^8.0.0
+
+dev_dependencies:
+  flutter_lints: ^2.0.1
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
